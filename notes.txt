@@ -1,0 +1,14 @@
+to install dependences using the requirements file : pip install -r requirements.txt
+to create a file using windows cmd echo. >> file.{ext}
+
+using pipenv
+-it comes with python.
+-SQLAlchwmy is the python SQL toolkit and object Relational Mapper that gives app developers the full power and flexibility of SQL.
+Flask-Marshmallow is useed for serieliasation
+-pip freeze > requirements.txt to create a requirements file.
+
+#to create database:
+- run python shell: >> python
+>> from app import db
+>> db.create_all()
+
